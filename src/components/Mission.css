@@ -1,0 +1,93 @@
+.mission-section {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  background-color: var(--secondary);
+  border-radius: var(--radius-lg);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 60px;
+}
+
+.mission-content {
+  flex: 1;
+}
+
+.mission-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  max-width: 450px;
+}
+
+.mission-intro {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 32px;
+  max-width: 450px;
+}
+
+.mission-items {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.mission-subtitle {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.check-icon {
+  color: #3b6b4d;
+}
+
+.mission-item p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding-left: 24px;
+}
+
+.mission-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.guarantee {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.mission-images {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  height: 500px;
+}
+
+.mission-img-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.mission-img-col .rounded-image {
+  flex: 1;
+}
+
+.mission-img-main {
+  flex: 1.2;
+}
+
+.tube-image {
+  height: 100%;
+}
