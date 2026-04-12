@@ -7,6 +7,7 @@ import Category from './components/Category';
 import FeaturedCollection from './components/FeaturedCollection';
 import Ingredients from './components/Ingredients';
 import ThemePage from './components/ThemePage';
+import ProductListing from './components/ProductListing';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -36,6 +37,8 @@ function App() {
           <FeaturedCollection />
           <Ingredients />
         </>
+      ) : currentPage === 'shop' ? (
+        <ProductListing />
       ) : (
         <ThemePage activeThemeId={activeThemeId} setActiveThemeId={setActiveThemeId} />
       )}
