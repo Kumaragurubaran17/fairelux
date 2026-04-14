@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
 
 :root {
   --primary: #122117; /* Dark black/green */
@@ -10,7 +12,11 @@
   --text-muted: #666666;
   --white: #ffffff;
   
+  --font-title: 'Cormorant Garamond', serif;
+  --font-text: 'Satoshi', 'Inter', sans-serif;
+  
   --radius-sm: 8px;
+
   --radius-md: 16px;
   --radius-lg: 24px;
   --radius-full: 9999px;
@@ -50,12 +56,13 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-text);
   background-color: var(--bg-color);
   color: var(--text-main);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
 
 a {
   text-decoration: none;
@@ -71,6 +78,7 @@ button {
 
 /* Typography elements */
 h1 {
+  font-family: var(--font-title);
   font-size: 4rem;
   line-height: 1.1;
   font-weight: 500;
@@ -78,7 +86,9 @@ h1 {
   letter-spacing: -0.02em;
 }
 
+
 h2 {
+  font-family: var(--font-title);
   font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 500;
@@ -86,10 +96,13 @@ h2 {
   letter-spacing: -0.01em;
 }
 
+
 h3 {
+  font-family: var(--font-title);
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 
 .text-muted {
   color: var(--text-muted);

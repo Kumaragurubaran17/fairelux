@@ -14,7 +14,7 @@ const Navbar = ({ currentPage = 'home', setCurrentPage, cycleTheme, activeThemeI
         <nav className="nav-links">
           <a href="#" className={currentPage === 'home' ? 'active' : ''} onClick={(e) => { e.preventDefault(); if (setCurrentPage) setCurrentPage('home'); }}>Home</a>
           <a href="#" className={currentPage === 'shop' ? 'active' : ''} onClick={(e) => { e.preventDefault(); if (setCurrentPage) setCurrentPage('shop'); }}>Shop</a>
-          <a href="#" className={currentPage === 'theme' ? 'active' : ''} onClick={(e) => { e.preventDefault(); if (setCurrentPage) setCurrentPage('theme'); }}>Theme</a>
+          <a href="#" className={currentPage === 'brandbook' ? 'active' : ''} onClick={(e) => { e.preventDefault(); if (setCurrentPage) setCurrentPage('brandbook'); }}>Brand Book</a>
         </nav>
         
         <div className="nav-actions">

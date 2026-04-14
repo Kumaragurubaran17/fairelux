@@ -6,12 +6,12 @@ import Products from './components/Products';
 import Category from './components/Category';
 import FeaturedCollection from './components/FeaturedCollection';
 import Ingredients from './components/Ingredients';
-import ThemePage from './components/ThemePage';
+import BrandBook from './components/BrandBook';
 import ProductListing from './components/ProductListing';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
-  const [activeThemeId, setActiveThemeId] = useState('theme-1');
+  const [currentPage, setCurrentPage] = useState('brandbook');
+  const [activeThemeId, setActiveThemeId] = useState('theme-3');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', activeThemeId);
@@ -25,10 +25,12 @@ function App() {
 
   return (
     <div className="app-wrapper">
-      <div className="hero-section-wrapper" style={{ backgroundColor: 'var(--secondary)' }}>
-        <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} cycleTheme={cycleTheme} activeThemeId={activeThemeId} />
-        {currentPage === 'home' && <Hero />}
-      </div>
+      {currentPage !== 'brandbook' && (
+        <div className="hero-section-wrapper" style={{ backgroundColor: 'var(--secondary)' }}>
+          <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} cycleTheme={cycleTheme} activeThemeId={activeThemeId} />
+          {currentPage === 'home' && <Hero />}
+        </div>
+      )}
       {currentPage === 'home' ? (
         <>
           <Category />
@@ -40,7 +42,7 @@ function App() {
       ) : currentPage === 'shop' ? (
         <ProductListing />
       ) : (
-        <ThemePage activeThemeId={activeThemeId} setActiveThemeId={setActiveThemeId} />
+        <BrandBook activeThemeId={activeThemeId} setActiveThemeId={setActiveThemeId} setCurrentPage={setCurrentPage} />
       )}
     </div>
   );
