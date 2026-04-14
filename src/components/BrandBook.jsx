@@ -184,7 +184,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
 
   const slides = [
     (
-      <div className="bb-page bb-cover-frame">
+      <div className="bb-page bb-cover-frame" style={{ background: currentTheme.primary[2].hex }}>
          <div className="bb-cover-top">
             <span className="bb-tag">Brand Guidelines</span>
             <span className="bb-tag">Version 1.0 • Jan 2026</span>
@@ -207,8 +207,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
               <li><span className="bb-num">06</span> <span className="bb-line"></span> Typography</li>
               <li><span className="bb-num">07</span> <span className="bb-line"></span> Icons</li>
               <li><span className="bb-num">08</span> <span className="bb-line"></span> Graphic Elements</li>
-              <li><span className="bb-num">09</span> <span className="bb-line"></span> Photography</li>
-              <li><span className="bb-num">10</span> <span className="bb-line"></span> Applications</li>
+               <li><span className="bb-num">09</span> <span className="bb-line"></span> Applications</li>
            </ul>
          </div>
       </div>
@@ -234,7 +233,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
       <div className="bb-page bb-content-frame">
-         <div className="bb-section-header">
+         <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
             <h2>Who we are</h2>
             <span className="bb-section-indicator">01 — OUR STORY</span>
          </div>
@@ -410,7 +409,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
       <div className="bb-page bb-content-frame">
-         <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+         <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
             <h2>How we speak</h2>
             <span className="bb-section-indicator">03 — TONE OF VOICE</span>
          </div>
@@ -466,7 +465,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
      <div className="bb-page bb-content-frame">
-        <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+        <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
            <h2>Logos</h2>
            <span className="bb-section-indicator">04 — LOGO</span>
         </div>
@@ -511,7 +510,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
      <div className="bb-page bb-content-frame">
-        <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+        <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
            <h2>Colour Variations</h2>
            <span className="bb-section-indicator">04 — LOGO</span>
         </div>
@@ -583,7 +582,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
      <div className="bb-page bb-content-frame">
-        <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+        <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
            <h2>Logo clearspace</h2>
            <span className="bb-section-indicator">04 — LOGO</span>
         </div>
@@ -629,7 +628,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
      <div className="bb-page bb-content-frame">
-        <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+        <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
            <h2 style={{color: currentTheme.primary[2].hex}}>Primary colors</h2>
            <span className="bb-section-indicator">05 — COLORS</span>
         </div>
@@ -665,7 +664,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
      <div className="bb-page bb-content-frame">
-        <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+        <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
            <h2>Secondary colors</h2>
            <span className="bb-section-indicator">05 — COLORS</span>
         </div>
@@ -774,7 +773,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
     <div className="bb-page bb-content-frame">
-       <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+       <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
           <h2>Fonts</h2>
           <span className="bb-section-indicator">06 — TYPOGRAPHY</span>
        </div>
@@ -818,7 +817,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
     <div className="bb-page bb-content-frame">
-       <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+       <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
           <h2>Type Hierarchy</h2>
           <span className="bb-section-indicator">06 — TYPOGRAPHY</span>
        </div>
@@ -872,7 +871,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
     <div className="bb-page bb-content-frame">
-       <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+       <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
           <h2>Visual Language</h2>
           <span className="bb-section-indicator">07 — ICONS</span>
        </div>
@@ -912,7 +911,7 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
     ),
     (
     <div className="bb-page bb-content-frame">
-       <div className="bb-section-header" style={{ background: currentTheme.secondary[1].hex }}>
+       <div className="bb-section-header" style={{ background: currentTheme.primary[1].hex }}>
           <h2>The Unified Frame</h2>
           <span className="bb-section-indicator">08 — GRAPHIC ELEMENTS</span>
        </div>
