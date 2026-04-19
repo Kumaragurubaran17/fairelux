@@ -23,6 +23,8 @@ const ThemedSVG = ({ raw, theme, colorOvr, width, maxWidth }) => {
   let modified = raw
     .replace(/white/gi, darkColor)
     .replace(/#752D36/gi, darkColor)
+    .replace(/#293B2D/gi, darkColor)
+    .replace(/#184A66/gi, darkColor)
     .replace(/#C44749/gi, lightColor)
     .replace(/#FA817A/gi, lightColor);
   return (
@@ -549,33 +551,33 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
                  </div>
                </div>
                
-               <div style={{flex: 1, backgroundColor: currentTheme.primary[2].hex, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '48px', padding: '60px 0'}}>
-                 <span style={{background: 'white', color: currentTheme.primary[2].hex, padding: '4px 12px', borderRadius: '16px', fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 600, marginBottom: '20px'}}>Dark background</span>
-                 
-                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px'}}>
-                    <span style={{fontSize: '0.6rem', textTransform: 'uppercase', color: 'white', opacity: 0.4, letterSpacing: '0.05em'}}>Standard branding</span>
-                    <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
-                       <ThemedSVG raw={logomarkRaw} theme={currentTheme} colorOvr={currentTheme.secondary[1].hex} width="40px" />
-                       <ThemedSVG raw={wordmarkRaw} theme={currentTheme} colorOvr={currentTheme.secondary[1].hex} width="140px" />
-                    </div>
-                 </div>
+               <div style={{flex: 1, backgroundColor: '#111111', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '56px', padding: '80px 0'}}>
+                  <span style={{background: 'white', color: '#1A1A1A', padding: '4px 16px', borderRadius: '20px', fontSize: '0.65rem', textTransform: 'none', letterSpacing: '0.02em', fontWeight: 500, marginBottom: '10px'}}>On dark background</span>
+                  
+                  <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px'}}>
+                     <span style={{fontSize: '0.6rem', textTransform: 'uppercase', color: 'white', opacity: 0.4, letterSpacing: '0.05em'}}>Standard branding</span>
+                     <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
+                        <ThemedSVG raw={logomarkRaw} theme={currentTheme} colorOvr={currentTheme.primary[0].hex} width="44px" />
+                        <ThemedSVG raw={wordmarkRaw} theme={currentTheme} colorOvr={currentTheme.primary[0].hex} width="140px" />
+                     </div>
+                  </div>
 
-                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px'}}>
-                    <span style={{fontSize: '0.6rem', textTransform: 'uppercase', color: 'white', opacity: 0.4, letterSpacing: '0.05em'}}>Standard mark + mono type</span>
-                    <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
-                       <ThemedSVG raw={logomarkRaw} theme={currentTheme} colorOvr={currentTheme.secondary[1].hex} width="40px" />
-                       <ThemedSVG raw={wordmarkRaw} theme={currentTheme} colorOvr="#FFFFFF" width="140px" />
-                    </div>
-                 </div>
+                  <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px'}}>
+                     <span style={{fontSize: '0.6rem', textTransform: 'uppercase', color: 'white', opacity: 0.4, letterSpacing: '0.05em'}}>Standard mark + mono type</span>
+                     <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
+                        <ThemedSVG raw={logomarkRaw} theme={currentTheme} colorOvr={currentTheme.primary[0].hex} width="44px" />
+                        <ThemedSVG raw={wordmarkRaw} theme={currentTheme} colorOvr="#FFFFFF" width="140px" />
+                     </div>
+                  </div>
 
-                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px'}}>
-                    <span style={{fontSize: '0.6rem', textTransform: 'uppercase', color: 'white', opacity: 0.4, letterSpacing: '0.05em'}}>Mono branding</span>
-                    <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
-                       <ThemedSVG raw={logomarkRaw} theme={currentTheme} colorOvr="#FFFFFF" width="40px" />
-                       <ThemedSVG raw={wordmarkRaw} theme={currentTheme} colorOvr="#FFFFFF" width="140px" />
-                    </div>
-                 </div>
-               </div>
+                  <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px'}}>
+                     <span style={{fontSize: '0.6rem', textTransform: 'uppercase', color: 'white', opacity: 0.4, letterSpacing: '0.05em'}}>Mono branding</span>
+                     <div style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
+                        <ThemedSVG raw={logomarkRaw} theme={currentTheme} colorOvr="#FFFFFF" width="44px" />
+                        <ThemedSVG raw={wordmarkRaw} theme={currentTheme} colorOvr="#FFFFFF" width="140px" />
+                     </div>
+                  </div>
+                </div>
            </div>
         </div>
      </div>
