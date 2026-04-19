@@ -26,26 +26,26 @@
 }
 
 :root[data-theme="theme-1"] {
-  --primary: #7B2E35;
-  --primary-light: #A2515E;
-  --secondary: #FFFBF0;
-  --accent: #D09EA3;
+  --primary: #833742;
+  --primary-light: #D28E98;
+  --secondary: #F7F2EA;
+  --accent: #D28E98;
   --bg-color: #FFFFFF;
 }
 
 :root[data-theme="theme-2"] {
-  --primary: #184A66;
-  --primary-light: #375D79;
-  --secondary: #F4EFEB;
-  --accent: #9BB8D3;
+  --primary: #375D79;
+  --primary-light: #85A3BA;
+  --secondary: #F8F5F2;
+  --accent: #85A3BA;
   --bg-color: #FFFFFF;
 }
 
 :root[data-theme="theme-3"] {
-  --primary: #2A402D;
-  --primary-light: #425746;
-  --secondary: #F2F3F0;
-  --accent: #8BA38E;
+  --primary: #293B2D;
+  --primary-light: #7B927D;
+  --secondary: #F6F7F5;
+  --accent: #7B927D;
   --bg-color: #FFFFFF;
 }
 

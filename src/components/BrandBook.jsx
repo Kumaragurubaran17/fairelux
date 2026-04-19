@@ -45,14 +45,14 @@ const themesConfig = {
     id: 'theme-1',
     name: 'Theme 1',
     primary: [
-      { name: 'Wine - Light', hex: '#D09EA3', r: 208, g: 158, b: 163, darkText: true },
-      { name: 'Cream - Light', hex: '#FFFBF0', r: 255, g: 251, b: 240, darkText: true },
-      { name: 'Wine - Dark', hex: '#7B2E35', r: 123, g: 46, b: 53, darkText: false },
-      { name: 'Cream - Dark', hex: '#91796A', r: 145, g: 121, b: 106, darkText: false }
+      { name: 'Wine - Light', hex: '#D28E98', r: 210, g: 142, b: 152, darkText: true },
+      { name: 'Cream - Light', hex: '#F7F2EA', r: 247, g: 242, b: 234, darkText: true },
+      { name: 'Wine - Dark', hex: '#833742', r: 131, g: 55, b: 66, darkText: false },
+      { name: 'Cream - Dark', hex: '#524027', r: 82, g: 64, b: 39, darkText: false }
     ],
     secondary: [
-      { name: 'Petal', hex: '#59171C', r: 89, g: 23, b: 28, darkText: false },
-      { name: 'Nectar', hex: '#DCC491', r: 220, g: 196, b: 145, darkText: true }
+      { name: 'Petal', hex: '#5F1C23', r: 95, g: 28, b: 35, darkText: false },
+      { name: 'Nectar', hex: '#DAA957', r: 218, g: 169, b: 87, darkText: true }
     ],
     accents: [
       { name: "Primary Accent - Wine", prefix: "WINE", colors: ["#FCF2F4", "#F4DFE2", "#EAC7CC", "#DFABB2", "#D28E98", "#C36F7C", "#A2515E", "#833742", "#641E28", "#460914", "#280108"] },
@@ -75,14 +75,14 @@ const themesConfig = {
     id: 'theme-2',
     name: 'Theme 2',
     primary: [
-      { name: 'Ocean - Light', hex: '#9BB8D3', r: 155, g: 184, b: 211, darkText: true },
-      { name: 'Sand - Light', hex: '#F4EFEB', r: 244, g: 239, b: 235, darkText: true },
-      { name: 'Ocean - Dark', hex: '#184A66', r: 24, g: 74, b: 102, darkText: false },
-      { name: 'Sand - Dark', hex: '#8C7F72', r: 140, g: 127, b: 114, darkText: false }
+      { name: 'Ocean - Light', hex: '#85A3BA', r: 133, g: 163, b: 186, darkText: true },
+      { name: 'Sand - Light', hex: '#F8F5F2', r: 248, g: 245, b: 242, darkText: true },
+      { name: 'Ocean - Dark', hex: '#375D79', r: 55, g: 93, b: 121, darkText: false },
+      { name: 'Sand - Dark', hex: '#47433B', r: 71, g: 67, b: 59, darkText: false }
     ],
     secondary: [
-      { name: 'Deep Water', hex: '#0B2333', r: 11, g: 35, b: 51, darkText: false },
-      { name: 'Sunlit', hex: '#F2CD88', r: 242, g: 205, b: 136, darkText: true }
+      { name: 'Deep Water', hex: '#020717', r: 2, g: 7, b: 23, darkText: false },
+      { name: 'Sunlit', hex: '#F3C556', r: 243, g: 197, b: 86, darkText: true }
     ],
     accents: [
       { name: "Primary Accent - Ocean", prefix: "OCEAN", colors: ["#F0F4F8", "#DAE5F0", "#BECFE0", "#A1B9CE", "#85A3BA", "#6A8CA6", "#507590", "#375D79", "#204661", "#0D2E47", "#03192B"] },
@@ -105,14 +105,14 @@ const themesConfig = {
     id: 'theme-3',
     name: 'Theme 3',
     primary: [
-      { name: 'Forest - Light', hex: '#8BA38E', r: 139, g: 163, b: 142, darkText: true },
-      { name: 'Stone - Light', hex: '#F2F3F0', r: 242, g: 243, b: 240, darkText: true },
-      { name: 'Forest - Dark', hex: '#2A402D', r: 42, g: 64, b: 45, darkText: false },
-      { name: 'Stone - Dark', hex: '#747A70', r: 116, g: 122, b: 112, darkText: false }
+      { name: 'Forest - Light', hex: '#7B927D', r: 123, g: 146, b: 125, darkText: true },
+      { name: 'Stone - Light', hex: '#F6F7F5', r: 246, g: 247, b: 245, darkText: true },
+      { name: 'Forest - Dark', hex: '#293B2D', r: 41, g: 59, b: 45, darkText: false },
+      { name: 'Stone - Dark', hex: '#343B33', r: 52, g: 59, b: 51, darkText: false }
     ],
     secondary: [
-      { name: 'Moss', hex: '#3E5C32', r: 62, g: 92, b: 50, darkText: false },
-      { name: 'Earth', hex: '#8A6947', r: 138, g: 105, b: 71, darkText: false }
+      { name: 'Moss', hex: '#0A1F02', r: 10, g: 31, b: 2, darkText: false },
+      { name: 'Earth', hex: '#996D3C', r: 153, g: 109, b: 60, darkText: false }
     ],
     accents: [
       { name: "Primary Accent - Forest", prefix: "FOREST", colors: ["#F0F5F1", "#DAE5DB", "#B9CBB9", "#9BAF9C", "#7B927D", "#5E7561", "#425746", "#293B2D", "#152119", "#080F0B", "#000000"] },
