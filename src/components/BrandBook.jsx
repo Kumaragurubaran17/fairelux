@@ -549,8 +549,8 @@ const BrandBook = ({ activeThemeId = 'theme-3', setActiveThemeId, setCurrentPage
                  </div>
                </div>
                
-               <div style={{flex: 1, backgroundColor: '#1A1A1A', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '48px', padding: '60px 0'}}>
-                 <span style={{background: 'white', color: '#1A1A1A', padding: '4px 12px', borderRadius: '16px', fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 600, marginBottom: '20px'}}>Dark background</span>
+               <div style={{flex: 1, backgroundColor: currentTheme.primary[2].hex, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '48px', padding: '60px 0'}}>
+                 <span style={{background: 'white', color: currentTheme.primary[2].hex, padding: '4px 12px', borderRadius: '16px', fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 600, marginBottom: '20px'}}>Dark background</span>
                  
                  <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px'}}>
                     <span style={{fontSize: '0.6rem', textTransform: 'uppercase', color: 'white', opacity: 0.4, letterSpacing: '0.05em'}}>Standard branding</span>
